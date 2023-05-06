@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core', # new app added by me
+    'users', # added new app for customized user management
+    'django_extensions', # new extension library provided by django
 ]
 
 MIDDLEWARE = [
