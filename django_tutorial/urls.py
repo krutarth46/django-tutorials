@@ -22,6 +22,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls', namespace="core")), # our core urls will be loaded
+    path('', include('users.urls', namespace="users")), # this is our new URL config related to Users
     path('__debug__/', include('debug_toolbar.urls')), # to load the debug toolbar
 ]
 
